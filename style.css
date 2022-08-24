@@ -54,7 +54,7 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: auto;
-    background-image: linear-gradient(-45deg,  #345c50, #162722);
+    background-image: linear-gradient(#e66465, #9198e5);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
@@ -90,7 +90,7 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(45deg, #366c7c,#1d3c46);
+    background-image: linear-gradient(-45deg,  #345c50, #162722);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
