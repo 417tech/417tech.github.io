@@ -126,7 +126,7 @@ body {
     width: 85%;
     justify-content: space-around;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
