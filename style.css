@@ -55,7 +55,7 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: auto;
-    background-image: linear-gradient(#95e3e1, #2a9ae0);
+    background-image: linear-gradient(#cbe7e6, #0d7ec4);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
@@ -97,7 +97,7 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(-45deg,  #9f8edf, #3825a2);
+    background-image: linear-gradient(-45deg,  #cbc3e8, #26119c);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
@@ -135,7 +135,7 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(45deg, #41088c,#755ecf);
+    background-image: linear-gradient(45deg, #c1a6d1,#3a14d1);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
