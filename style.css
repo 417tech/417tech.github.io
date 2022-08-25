@@ -72,7 +72,7 @@ body {
     padding-top: 4.5%;
     padding-bottom: 4.5%;
     width: all;
-    height: auto;
+    /*height: auto;*/
     background-image: linear-gradient(315deg,
             hsl(240deg 100% 20%) 0%,
             hsl(283deg 100% 20%) 11%,
@@ -84,7 +84,7 @@ body {
             hsl(12deg 79% 59%) 78%,
             hsl(23deg 87% 60%) 89%,
             hsl(32deg 91% 61%) 100%);
-    background-size: 400% 400%;
+    /*background-size: 400% 400%;*/
     animation: change 10s ease-in-out infinite;
 }
 
@@ -92,7 +92,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 5%;
+    margin-inline: 5%;
 }
 
 #youtube {
@@ -362,10 +362,15 @@ section {
     }
 
     .contentA {
-        margin-left: 0%;
+        height: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    #youtube {
+        width: 100%;
+        height: 100%;
     }
 
     #contentA2 {
