@@ -1,115 +1,168 @@
-
 html {
     scroll-behavior: smooth;
     font-size: 10px;
     font-family: Arial, sans-serif;
 }
+
 body {
     margin: 0;
-    background-image: linear-gradient(45deg, #366c7c,#1d3c46,#4e2b14);
+    background-image: linear-gradient(320deg,
+            hsl(0deg 0% 5%) 0%,
+            hsl(344deg 0% 10%) 9%,
+            hsl(344deg 0% 14%) 18%,
+            hsl(344deg 0% 18%) 27%,
+            hsl(344deg 0% 23%) 36%,
+            hsl(344deg 0% 28%) 45%,
+            hsl(344deg 0% 32%) 55%,
+            hsl(344deg 0% 37%) 64%,
+            hsl(344deg 0% 42%) 73%,
+            hsl(344deg 0% 48%) 82%,
+            hsl(344deg 0% 53%) 91%,
+            hsl(0deg 0% 58%) 100%);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
     position: relative;
 }
 
-.textfield{
+.textfield {
     padding-top: 5%;
-    color : white;
+    color: white;
 }
-.textfield h2{
+
+.textfield h2 {
     font-size: xx-large;
 }
-.textfield p{
+
+.textfield p {
     font-size: large;
 }
 
-.textfieldB{
-    color : white;
+.textfieldB {
+    color: white;
 }
-.textfieldB h2{
+
+.textfieldB h2 {
     font-size: xx-large;
 }
-.textfieldB p{
+
+.textfieldB p {
     font-size: large;
 }
-.textfieldB table{
+
+.textfieldB table {
     font-size: large;
 }
 
 
 
-.cover{
+.cover {
     margin-left: 5%;
     margin-bottom: 5%;
     padding-top: 6%;
     width: all;
     /*height: 100vh;     */
 }
-.content{
+
+.content {
     display: flex;
     flex-wrap: wrap;
 }
 
-.coverA{
+.coverA {
     padding-top: 4.5%;
     padding-bottom: 4.5%;
     width: all;
     height: auto;
-    background-image: linear-gradient(#cbe7e6, #0d7ec4);
+    background-image: linear-gradient(315deg,
+            hsl(240deg 100% 20%) 0%,
+            hsl(283deg 100% 20%) 11%,
+            hsl(308deg 100% 23%) 22%,
+            hsl(322deg 100% 29%) 33%,
+            hsl(330deg 100% 35%) 44%,
+            hsl(343deg 71% 46%) 56%,
+            hsl(358deg 68% 57%) 67%,
+            hsl(12deg 79% 59%) 78%,
+            hsl(23deg 87% 60%) 89%,
+            hsl(32deg 91% 61%) 100%);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
 
-.contentA{
+.contentA {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 5%;
 }
 
-#youtube{
+#youtube {
     width: 100%;
     height: all;
 }
 
 
-.coverB{
+.coverB {
     padding-top: 4.5%;
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(45deg,  #7f7dd2, #7f5bb9);
+    background-image: linear-gradient(320deg,
+            hsl(187deg 99% 31%) 0%,
+            hsl(191deg 100% 34%) 4%,
+            hsl(195deg 100% 37%) 8%,
+            hsl(199deg 100% 40%) 12%,
+            hsl(203deg 100% 43%) 16%,
+            hsl(206deg 100% 46%) 21%,
+            hsl(209deg 100% 49%) 26%,
+            hsl(212deg 100% 50%) 33%,
+            hsl(214deg 100% 50%) 41%,
+            hsl(227deg 100% 60%) 51%,
+            hsl(255deg 100% 65%) 65%,
+            hsl(276deg 95% 56%) 100%);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
-.contentB{
+
+.contentB {
     margin-left: 15%;
     display: flex;
     flex-wrap: wrap;
 }
 
-#contentB2{
+#contentB2 {
     margin-top: 4%;
 }
 
-.coverC{
+.coverC {
     padding-top: 4.5%;
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(-45deg,  #cbc3e8, #26119c);
+    background-image: linear-gradient(320deg,
+            hsl(207deg 91% 38%) 0%,
+            hsl(203deg 100% 39%) 24%,
+            hsl(200deg 100% 40%) 39%,
+            hsl(195deg 100% 41%) 52%,
+            hsl(190deg 100% 40%) 62%,
+            hsl(183deg 100% 38%) 71%,
+            hsl(175deg 100% 39%) 78%,
+            hsl(167deg 100% 41%) 85%,
+            hsl(150deg 68% 56%) 90%,
+            hsl(118deg 66% 70%) 94%,
+            hsl(87deg 77% 68%) 98%,
+            hsl(66deg 83% 67%) 100%);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
 
-#contentC1{
+#contentC1 {
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-around;
 }
 
-#contentC2{
+#contentC2 {
     margin-left: auto;
     margin-right: auto;
     width: 85%;
@@ -119,53 +172,76 @@ body {
     flex-wrap: wrap;
 }
 
-#contentC3{
+#contentC3 {
     padding-top: 200px;
     margin-left: auto;
     margin-right: auto;
     width: 85%;
     justify-content: space-around;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
-.coverD{
+.coverD {
     padding-top: 4.5%;
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(45deg, #c1a6d1,#3a14d1);
+    background-image: linear-gradient(315deg,
+            hsl(277deg 100% 22%) 0%,
+            hsl(264deg 63% 31%) 24%,
+            hsl(253deg 49% 37%) 40%,
+            hsl(241deg 41% 42%) 52%,
+            hsl(232deg 43% 44%) 62%,
+            hsl(225deg 45% 46%) 70%,
+            hsl(220deg 44% 48%) 77%,
+            hsl(216deg 43% 50%) 83%,
+            hsl(213deg 44% 53%) 89%,
+            hsl(211deg 45% 57%) 93%,
+            hsl(209deg 44% 60%) 97%,
+            hsl(207deg 43% 64%) 100%);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
 
-#contentD1{
+.coverD,a{
+    color: azure;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+#contentD1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.footer{
+.footer {
     padding-top: 3.5%;
     padding-bottom: 2.5%;
     background-color: #1f2936;
     width: all;
     height: 10vh;
 }
-#contentF1{
+
+#contentF1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-#contentF2{
+#contentF2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-#contentF3{
+#contentF3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -174,18 +250,21 @@ body {
 
 
 
-.soical{
+.soical {
     display: flex;
     justify-content: space-around;
     width: 20%;
 }
+
 .fa-facebook {
     color: rgb(59, 91, 152);
 }
-.fa-instagram{
+
+.fa-instagram {
     color: rgb(255, 145, 0);
 }
-.fa-youtube{
+
+.fa-youtube {
     color: rgb(255, 8, 8);
 }
 
@@ -195,9 +274,7 @@ section {
     padding-top: 0px;
 }
 
-.sticky {
-
-}
+.sticky {}
 
 .fixed {
     background: rgba(139, 135, 139, 0.342);
@@ -207,25 +284,28 @@ section {
     width: 100%;
 }
 
-.addspace{
+.addspace {
     padding-top: 84px;
 }
 
-#OLDheader{
+#OLDheader {
     float: left;
 }
-.OLDnav{
+
+.OLDnav {
     float: right;
     padding-top: 30px;
 }
 
-#header{
+#header {
     display: flex;
     justify-content: space-around;
 }
-.nav{
+
+.nav {
     padding-top: 30px;
 }
+
 .nava {
     color: azure;
     text-align: center;
@@ -235,60 +315,64 @@ section {
     line-height: 25px;
     border-radius: 4px;
 }
-#navHome{
-    color : burlywood;
+
+#navHome {
+    color: burlywood;
 }
 
-.logoimage{
+.logoimage {
     width: 140px;
     height: 80px;
 }
 
 @keyframes change {
-    0%{
+    0% {
         background-position: 0 50%;
     }
-    50%{
+
+    50% {
         background-position: 100% 50%;
     }
-    100%{
+
+    100% {
         background-position: 0 50%;
     }
 }
 
 @media screen and (max-width: 1000px) {
     img {
-      display: none;
+        display: none;
     }
-    .cover{
+
+    .cover {
         height: 500px;
         margin-left: 0%;
         padding-top: 0%;
     }
 
-    .content{
+    .content {
         margin-left: 0%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .coverA{
+    .coverA {
         height: 500px;
     }
 
-    .contentA{
+    .contentA {
         margin-left: 0%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
-    #contentA2{
+
+    #contentA2 {
         margin-top: 6%;
     }
 
-    .coverB{
+    .coverB {
         height: 500px;
     }
-  }
+}
