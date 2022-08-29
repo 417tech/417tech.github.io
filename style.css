@@ -106,19 +106,19 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(320deg,
-            hsl(187deg 99% 31%) 0%,
-            hsl(191deg 100% 34%) 4%,
-            hsl(195deg 100% 37%) 8%,
-            hsl(199deg 100% 40%) 12%,
-            hsl(203deg 100% 43%) 16%,
-            hsl(206deg 100% 46%) 21%,
-            hsl(209deg 100% 49%) 26%,
-            hsl(212deg 100% 50%) 33%,
-            hsl(214deg 100% 50%) 41%,
-            hsl(227deg 100% 60%) 51%,
-            hsl(255deg 100% 65%) 65%,
-            hsl(276deg 95% 56%) 100%);
+    background-image: linear-gradient(230deg,
+            hsl(197deg 100% 54%) 0%,
+            hsl(199deg 100% 50%) 1%,
+            hsl(210deg 100% 62%) 2%,
+            hsl(231deg 100% 73%) 4%,
+            hsl(263deg 100% 72%) 8%,
+            hsl(291deg 82% 60%) 12%,
+            hsl(304deg 79% 59%) 17%,
+            hsl(305deg 82% 70%) 24%,
+            hsl(307deg 86% 79%) 33%,
+            hsl(308deg 91% 86%) 45%,
+            hsl(310deg 96% 93%) 61%,
+            hsl(0deg 0% 100%) 100%);
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
 }
@@ -205,7 +205,8 @@ body {
     animation: change 10s ease-in-out infinite;
 }
 
-.coverD,a{
+.coverD,
+a {
     color: azure;
     text-align: center;
     padding: 12px;
