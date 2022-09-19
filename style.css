@@ -24,6 +24,15 @@ body {
     position: relative;
 }
 
+#cbtf{
+    margin-top: 3%;
+    padding-left: 3%;
+    font-size: x-large;
+}
+#cbtf li{
+    margin-left: 10%;
+}
+
 .textfield {
     padding-top: 5%;
     color: white;
@@ -52,6 +61,32 @@ body {
 .textfieldB table {
     font-size: large;
 }
+
+.policycover {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    width: all;
+}
+
+#policycontent{
+}
+
+#policyfield div{
+    color: white;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+#policyfield li{
+    padding-left: 4%;
+}
+
+
+
+
 
 
 

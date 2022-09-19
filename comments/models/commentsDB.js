@@ -15,7 +15,7 @@ module.exports = function register(commentsData) {
                     }
                     // 若寫入資料庫成功，則回傳給clinet端下：
                     result.status = "成功。"
-                    result.registerMember = commentsData;
+                    result.AddedcommentsData = commentsData;
                     resolve(result);
                 })
             });
