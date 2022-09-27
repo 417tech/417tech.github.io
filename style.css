@@ -141,21 +141,21 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(230deg,
-            hsl(197deg 100% 54%) 0%,
-            hsl(199deg 100% 50%) 1%,
-            hsl(210deg 100% 62%) 2%,
-            hsl(231deg 100% 73%) 4%,
-            hsl(263deg 100% 72%) 8%,
-            hsl(291deg 82% 60%) 12%,
-            hsl(304deg 79% 59%) 17%,
-            hsl(305deg 82% 70%) 24%,
-            hsl(307deg 86% 79%) 33%,
-            hsl(308deg 91% 86%) 45%,
-            hsl(310deg 96% 93%) 61%,
-            hsl(0deg 0% 100%) 100%);
+    background-image: linear-gradient(320deg,
+            hsl(0deg 0% 5%) 0%,
+            hsl(344deg 0% 10%) 9%,
+            hsl(344deg 0% 14%) 18%,
+            hsl(344deg 0% 18%) 27%,
+            hsl(344deg 0% 23%) 36%,
+            hsl(344deg 0% 28%) 45%,
+            hsl(344deg 0% 32%) 55%,
+            hsl(344deg 0% 37%) 64%,
+            hsl(344deg 0% 42%) 73%,
+            hsl(344deg 0% 48%) 82%,
+            hsl(344deg 0% 53%) 91%,
+            hsl(0deg 0% 58%) 100%);
     background-size: 400% 400%;
-    animation: change 10s ease-in-out infinite;
+    animation: change 40s ease-in-out infinite;
 }
 
 .contentB {
@@ -173,20 +173,7 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(320deg,
-            hsl(207deg 91% 38%) 0%,
-            hsl(203deg 100% 39%) 24%,
-            hsl(200deg 100% 40%) 39%,
-            hsl(195deg 100% 41%) 52%,
-            hsl(190deg 100% 40%) 62%,
-            hsl(183deg 100% 38%) 71%,
-            hsl(175deg 100% 39%) 78%,
-            hsl(167deg 100% 41%) 85%,
-            hsl(150deg 68% 56%) 90%,
-            hsl(118deg 66% 70%) 94%,
-            hsl(87deg 77% 68%) 98%,
-            hsl(66deg 83% 67%) 100%);
-    background-size: 400% 400%;
+    background-color: #1f2936;
     animation: change 10s ease-in-out infinite;
 }
 
@@ -223,21 +210,21 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(315deg,
-            hsl(277deg 100% 22%) 0%,
-            hsl(264deg 63% 31%) 24%,
-            hsl(253deg 49% 37%) 40%,
-            hsl(241deg 41% 42%) 52%,
-            hsl(232deg 43% 44%) 62%,
-            hsl(225deg 45% 46%) 70%,
-            hsl(220deg 44% 48%) 77%,
-            hsl(216deg 43% 50%) 83%,
-            hsl(213deg 44% 53%) 89%,
-            hsl(211deg 45% 57%) 93%,
-            hsl(209deg 44% 60%) 97%,
-            hsl(207deg 43% 64%) 100%);
+    background-image: linear-gradient(320deg,
+            hsl(0deg 0% 5%) 0%,
+            hsl(344deg 0% 10%) 9%,
+            hsl(344deg 0% 14%) 18%,
+            hsl(344deg 0% 18%) 27%,
+            hsl(344deg 0% 23%) 36%,
+            hsl(344deg 0% 28%) 45%,
+            hsl(344deg 0% 32%) 55%,
+            hsl(344deg 0% 37%) 64%,
+            hsl(344deg 0% 42%) 73%,
+            hsl(344deg 0% 48%) 82%,
+            hsl(344deg 0% 53%) 91%,
+            hsl(0deg 0% 58%) 100%);
     background-size: 400% 400%;
-    animation: change 10s ease-in-out infinite;
+    animation: change 40s ease-in-out infinite;
 }
 
 .coverD,
@@ -262,7 +249,7 @@ a {
     padding-bottom: 2.5%;
     background-color: #1f2936;
     width: all;
-    height: 10vh;
+    height: auto;
 }
 
 #contentF1 {
