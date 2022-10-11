@@ -6,19 +6,7 @@ html {
 
 body {
     margin: 0;
-    background-image: linear-gradient(320deg,
-            hsl(0deg 0% 5%) 0%,
-            hsl(344deg 0% 10%) 9%,
-            hsl(344deg 0% 14%) 18%,
-            hsl(344deg 0% 18%) 27%,
-            hsl(344deg 0% 23%) 36%,
-            hsl(344deg 0% 28%) 45%,
-            hsl(344deg 0% 32%) 55%,
-            hsl(344deg 0% 37%) 64%,
-            hsl(344deg 0% 42%) 73%,
-            hsl(344deg 0% 48%) 82%,
-            hsl(344deg 0% 53%) 91%,
-            hsl(0deg 0% 58%) 100%);
+    background-color: #222831;
     background-size: 400% 400%;
     animation: change 10s ease-in-out infinite;
     position: relative;
@@ -108,17 +96,7 @@ body {
     padding-bottom: 4.5%;
     width: all;
     /*height: auto;*/
-    background-image: linear-gradient(315deg,
-            hsl(240deg 100% 20%) 0%,
-            hsl(283deg 100% 20%) 11%,
-            hsl(308deg 100% 23%) 22%,
-            hsl(322deg 100% 29%) 33%,
-            hsl(330deg 100% 35%) 44%,
-            hsl(343deg 71% 46%) 56%,
-            hsl(358deg 68% 57%) 67%,
-            hsl(12deg 79% 59%) 78%,
-            hsl(23deg 87% 60%) 89%,
-            hsl(32deg 91% 61%) 100%);
+    background-color:#eaeaea;
     /*background-size: 400% 400%;*/
     animation: change 10s ease-in-out infinite;
 }
@@ -141,22 +119,11 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(320deg,
-            hsl(0deg 0% 5%) 0%,
-            hsl(344deg 0% 10%) 9%,
-            hsl(344deg 0% 14%) 18%,
-            hsl(344deg 0% 18%) 27%,
-            hsl(344deg 0% 23%) 36%,
-            hsl(344deg 0% 28%) 45%,
-            hsl(344deg 0% 32%) 55%,
-            hsl(344deg 0% 37%) 64%,
-            hsl(344deg 0% 42%) 73%,
-            hsl(344deg 0% 48%) 82%,
-            hsl(344deg 0% 53%) 91%,
-            hsl(0deg 0% 58%) 100%);
+    background-color: #222831;
     background-size: 400% 400%;
     animation: change 40s ease-in-out infinite;
 }
+
 
 .contentB {
     margin-left: 15%;
@@ -173,8 +140,12 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-color: #1f2936;
+    background-color: #eaeaea;
     animation: change 10s ease-in-out infinite;
+}
+
+.coverC div{
+    color: #1f2936;
 }
 
 #contentC1 {
@@ -210,20 +181,7 @@ body {
     padding-bottom: 4.5%;
     width: all;
     height: all;
-    background-image: linear-gradient(320deg,
-            hsl(0deg 0% 5%) 0%,
-            hsl(344deg 0% 10%) 9%,
-            hsl(344deg 0% 14%) 18%,
-            hsl(344deg 0% 18%) 27%,
-            hsl(344deg 0% 23%) 36%,
-            hsl(344deg 0% 28%) 45%,
-            hsl(344deg 0% 32%) 55%,
-            hsl(344deg 0% 37%) 64%,
-            hsl(344deg 0% 42%) 73%,
-            hsl(344deg 0% 48%) 82%,
-            hsl(344deg 0% 53%) 91%,
-            hsl(0deg 0% 58%) 100%);
-    background-size: 400% 400%;
+    background-color: #8BBCCC;
     animation: change 40s ease-in-out infinite;
 }
 
